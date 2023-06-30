@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230630224132">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__block block">
+				<div class="block__container">
+					<div class="block__body">
+						<div class="block__title">
+							<h3>вход</h3>
+						</div>
+						<div class="subscribe-body">
+							<form action="#" class="subscribe-body__form">
+
+								<div class="subscribe-body__box">
+									<!-- Тип tel - поле вводу телефонного номеру -->
+									<div class="subscribe-body__line">
+
+										<div class="subscribe-body__icon-tel">
+											<img src="img/tel.svg" alt="icon-tel">
+										</div>
+
+
+										<input class="subscribe-body__input" required autocomplete="off" placeholder="Введите номер телефона" name="phone" type="tel" pattern="[0-9]+">
+									</div>
+
+									<!-- Тип password - поле вводу паролю  -->
+
+									<div class="subscribe-body__line">
+										<div class="subscribe-body__icon">
+											<img src="img/close.svg" alt="icon-tel">
+										</div>
+
+										<input class="subscribe-body__input" required autocomplete="off" placeholder="Пароль" name="pass" type="password">
+
+
+										<div class="subscribe-body__icon-gl">
+											<img id="g" src="img/glazik-01.svg" alt="icon-tel">
+											<img id="g-1" src="img/glazik.svg" alt="icon-tel">
+										</div>
+									</div>
+								</div>
+
+								<div class="subscribe-body__action">
+									<div class="checkbox-reg">
+										<input id="c_1" data-error="Помилка" class="checkbox-reg__input" type="checkbox" value="1" name="form[]">
+										<label for="c_1" class="checkbox-reg__label"><span class="checkbox-reg__text">Запомнить меня</span></label>
+									</div>
+									<div class="subscribe-body__link">
+										<a href="#">Забыли пароль?</a>
+									</div>
+
+								</div>
+								<button type="submit" class="subscribe-body__button">Войти</button>
+							</form>
+
+						</div>
+						<div class="block__text">
+							<p>Нет аккаунта? </p>
+							<a href="#">Зарегистрироваться</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230630224132"></script>
+</body>
+
+</html>
+
+<div class="form__line">
+	<!-- Тип tel - поле вводу телефонного номеру -->
+	<input class="form__input" autocomplete="off" placeholder="Введіть ваш телефон" name="phone" type="tel">
+</div>
